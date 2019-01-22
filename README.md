@@ -1,9 +1,9 @@
 Ethereum Level DB schema review
 ===============================
-'''
+<pre><code>
 Author: SigmoiD(alphabet@hotmail.co.kr)
 (RLP Decoding reference: https://github.com/ethereum/wiki/wiki/RLP)
-'''
+</code></pre>
 
 Scenario summary
 ----------------
@@ -24,7 +24,8 @@ Nil uncle: 1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347
 Empty trie: 56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421
 }
 
-=====Level DB data([key, value])====
+Level DB data([key, value])
+---------------------------
 <pre><code>
 //block3 state root (extension node)
 [0d9348243d7357c491e6a61f4b1305e77dc6acacdb8cc708e662f6a9bab6ca02, f8518080808080a018e3b46e84b35270116303fb2a33c853861d45d99da2d87117c2136f7edbd0b980a0717aef38e7ba4a0ae477856a6e7f6ba8d4ee764c57908e6f22643a558db737ff808080808080808080]
